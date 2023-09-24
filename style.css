@@ -1,0 +1,72 @@
+/* universal selector */
+*{margin: 0;
+padding: 0;
+box-sizing: 0;
+}
+
+/* class selector */
+.top{color: green;
+    font-size: 2rem;
+    font-family: Georgia, 
+    'Times New Roman', Times, serif;
+    background-color: rgb(255, 0, 17);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;}
+
+
+/* class selector */
+.description{color: cadetblue;
+margin: 20px;
+max-width: 900px;
+font-size: 1.2rem;
+}
+
+/* id */
+.welcome{font-size: 1.2rem;
+    color: cadetblue;
+    margin: 20px;}
+
+/* class */
+.list{font-size: 1rem;
+color: blue;
+margin: 40px;
+padding: 0;}
+
+/* class */
+.item{font-size: 1rem;
+  color: brown;
+  margin: 40px;
+  padding: 0;}
+
+
+/* class */
+.table{border: 1;
+margin: 40px;
+color: cadetblue;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow',
+ Arial, sans-serif;
+font-size: 1rem;}
+
+/* class */
+.ref{border: 1;
+    margin: 40px;
+    color: brown;}
+
+
+    /* .class selector */
+.parent {
+    margin: 40px auto;
+    background-color: cadetblue;
+    padding: 10px;
+    max-width: 300px;
+    text-align: center;
+  }
+  .tit {
+    color: black;
+    font-size: 0.9rem;
+    background-color: red;
+  }
+  .button-container {
+    margin-top: 10px;
+  }
