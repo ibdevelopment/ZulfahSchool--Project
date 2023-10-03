@@ -80,11 +80,9 @@ font-size: 1rem;
 
 .fixedlogo {background-color: aquamarine;
   position: fixed;
-  border: 0.1rem;
-  size: 0.4rem; bottom: 0px;
-  right: 2px;
-  
-}
+  right: 0px;
+  bottom: 0px;}
+
 .absolute-parent{
   position: relative;
   width: 300px;
