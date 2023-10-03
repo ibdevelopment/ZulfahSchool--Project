@@ -1,7 +1,8 @@
 /* universal selector */
-*{margin: 0;
+*{margin: 0.5;
 padding: 0;
 box-sizing: 0;
+
 }
 
 /* class selector */
@@ -9,14 +10,14 @@ box-sizing: 0;
     font-size: 2rem;
     font-family: Georgia, 
     'Times New Roman', Times, serif;
-    background-color: rgb(255, 0, 17);
+    background-color: rgb(55, 0, 255);
     margin: 20px;
     padding: 10px;
     border-radius: 5px;}
 
 
 /* class selector */
-.description{color: cadetblue;
+.description{color: rgb(99, 160, 95);
 margin: 20px;
 max-width: 900px;
 font-size: 1.2rem;
@@ -35,7 +36,7 @@ padding: 0;}
 
 /* class */
 .item{font-size: 1rem;
-  color: brown;
+  ;
   margin: 40px;
   padding: 0;}
 
@@ -43,10 +44,11 @@ padding: 0;}
 /* class */
 .table{border: 1;
 margin: 40px;
-color: cadetblue;
+color: rgb(99, 160, 95);
 font-family: 'Franklin Gothic Medium', 'Arial Narrow',
  Arial, sans-serif;
-font-size: 1rem;}
+font-size: 1rem;
+}
 
 /* class */
 .ref{border: 1;
@@ -70,3 +72,92 @@ font-size: 1rem;}
   .button-container {
     margin-top: 10px;
   }
+
+  .sticky1 {background-color: rgb(135, 140, 138);
+    position: sticky;
+    border: 1rem;
+  top: 0px;}
+
+.fixedlogo {background-color: aquamarine;
+  position: fixed;
+  border: 0.1rem;
+  size: 0.4rem; bottom: 0px;
+  right: 2px;
+  
+}
+.absolute-parent{
+  position: relative;
+  width: 300px;
+  height: 5rem;
+  border: 20px solid;
+  margin: 160px;
+  padding: 2rem;
+  border-color: blue 
+  green fuchsia;
+  border-style: double;
+  text-align: justify;
+
+}
+.absolute{
+  position: absolute;
+  width: 170px;
+  text-align: center;
+  border-color: blue;
+  color: blue;
+  bottom: 10px;
+  right: 10px;
+  border: 1px solid;
+}
+.fixedcall{
+  background-color: orange;
+  border-color: brown;
+  bottom: 0px;
+  right: 0px;
+  position: fixed;
+  padding: 0px;
+}
+
+
+.buttonsend {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.favourite{
+  width: 600px;
+  height: 100px;
+  border-radius: 1rem;
+  color: rgb(25, 61, 49);
+  border: blue;
+  margin: 2rem;
+  
+}
+
+
+.advert{
+  display: flex;
+   flex-direction: row;
+  flex-wrap: wrap;}
+
+
+
+
+.advert > div { border-style: groove;
+  border-color: brown
+   blue red green;
+  color: blueviolet;
+  margin-left: 30px;
+  margin-top: 10px;
+  padding: 5rem;
+  font-size: 2rem;
+  background-color: aqua;
+  
+  
+}
+.flename{
+  font-size: 20px;
+  color: red;
+  border: 5rem;
+  border-color: brown;
+}
