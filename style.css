@@ -2,6 +2,8 @@
 *{margin: 0.5;
 padding: 0;
 box-sizing: 0;
+color: rgb(56, 29, 29);
+background-color: blanchedalmond;
 
 }
 
@@ -61,16 +63,18 @@ font-size: 1rem;
     margin: 40px auto;
     background-color: cadetblue;
     padding: 10px;
-    max-width: 300px;
+    max-width: 200px;
     text-align: center;
+    margin: 40px;
   }
   .tit {
     color: black;
     font-size: 0.9rem;
-    background-color: red;
+    background-color: blanchedalmond;
   }
   .button-container {
     margin-top: 10px;
+    background-color: brown;
   }
 
   .sticky1 {background-color: rgb(135, 140, 138);
@@ -138,6 +142,12 @@ font-size: 1rem;
    flex-direction: row;
   flex-wrap: wrap;}
 
+.box{
+  width: 300px;
+  margin: 10px;
+ 
+}
+
 
 
 
@@ -150,6 +160,9 @@ font-size: 1rem;
   padding: 5rem;
   font-size: 2rem;
   background-color: aqua;
+  height: 200px;
+  width: 170px;
+  border: 20px solid;
   
   
 }
@@ -159,3 +172,39 @@ font-size: 1rem;
   border: 5rem;
   border-color: brown;
 }
+
+.cat{
+ display: flex;
+ flex-direction: column;
+}
+
+.cat > div {
+  border-color: 
+  rgb(43, 226, 141);
+  border: 1px solid;
+ margin-left: 50px;
+ margin-right: 50px;
+  background-color: rgb(49, 65, 25);
+padding: 20px;
+border: 1px solid;
+text-align: center;
+
+}
+
+
+.disp {
+  display: flex;
+  flex-direction: row;
+ }
+ 
+ .disp > div {
+   border-color: 
+   rgb(43, 226, 141);
+   border: 1px solid;
+  margin-left: 100px;
+  margin-right: 20px;
+   background-color: aliceblue;
+ padding: 20px;
+
+
+ }
