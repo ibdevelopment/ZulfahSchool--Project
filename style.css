@@ -1,5 +1,5 @@
 /* universal selector */
-*{margin: 0.5;
+*{margin: 0.5 rem;
 padding: 0;
 box-sizing: 0;
 color: rgb(56, 29, 29);
@@ -18,12 +18,7 @@ background-color: blanchedalmond;
     border-radius: 5px;}
 
 
-/* class selector */
-.description{color: rgb(99, 160, 95);
-margin: 20px;
-max-width: 900px;
-font-size: 1.2rem;
-}
+/* class selecto
 
 /* id */
 .welcome{font-size: 1.2rem;
@@ -92,7 +87,7 @@ font-size: 1rem;
   width: 300px;
   height: 5rem;
   border: 20px solid;
-  margin: 160px;
+  margin: 50px;
   padding: 2rem;
   border-color: blue 
   green fuchsia;
@@ -132,7 +127,7 @@ font-size: 1rem;
   border-radius: 1rem;
   color: rgb(25, 61, 49);
   border: blue;
-  margin: 2rem;
+  margin: 20px;
   
 }
 
@@ -144,7 +139,7 @@ font-size: 1rem;
 
 .box{
   width: 300px;
-  margin: 10px;
+  margin: 20px;
  
 }
 
@@ -156,7 +151,7 @@ font-size: 1rem;
    blue red green;
   color: blueviolet;
   margin-left: 30px;
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 5rem;
   font-size: 2rem;
   background-color: aqua;
@@ -171,6 +166,7 @@ font-size: 1rem;
   color: red;
   border: 5rem;
   border-color: brown;
+  margin: 20px;
 }
 
 .cat{
@@ -208,3 +204,22 @@ text-align: center;
 
 
  }
+
+ .vismis {
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', 
+  Times, serif;
+  color: red;
+  margin: 20px;
+ } 
+
+ .vismis2 {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', 
+  Times, serif;
+  color: blue;
+  justify-self: unset;
+  margin: 20px;
+  
+ } 
+
